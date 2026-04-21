@@ -1,1 +1,1 @@
-# botond
+# We are Botond Hamori.
