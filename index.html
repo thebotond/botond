@@ -3,136 +3,57 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>Botond Hamori</title>
-
-  <meta name="description" content="Personal academic website of Botond Hamori, PhD researcher in AI, synthetic tabular data, epidemiology, and public health." />
-
+  <title>Botond Hamori | About</title>
+  <meta name="description" content="Personal academic and professional website of Botond Hamori." />
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
   <header class="site-header">
-    <div class="container">
-      <h1>Botond Hamori</h1>
-      <p class="subtitle">PhD Researcher in Artificial Intelligence, Synthetic Data, and Public Health</p>
-
-      <nav>
-        <a href="#about">About</a>
-        <a href="#research">Research</a>
-        <a href="#teaching">Teaching</a>
-        <a href="#services">Services</a>
-        <a href="#projects">Personal Projects</a>
-        <a href="#contact">Contact</a>
+    <div class="container header-inner">
+      <h1 class="site-title"><a href="index.html">Botond Hamori</a></h1>
+      <p class="subtitle">PhD researcher working across artificial intelligence, machine learning, statistics, epidemiology, and public health.</p>
+      <nav aria-label="Main navigation">
+        <a href="index.html" class="active">About</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Personal Projects</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
 
   <main class="container">
-    <section id="about">
+    <section>
       <h2>About</h2>
       <p>
-        I am a PhD researcher working at the intersection of artificial intelligence,
-        machine learning, statistics, epidemiology, and public health. My current research
-        focuses on synthetic tabular data, population modelling, deep generative models,
-        and microsimulation.
+        I am a PhD researcher interested in the development and evaluation of machine learning methods for structured, tabular, and population-level data. My work sits at the intersection of artificial intelligence, statistics, epidemiology, and public health.
+      </p>
+      <p>
+        My current research focuses on synthetic tabular data generation, microsimulation, scenario-conditioned population modelling, and transparent evaluation frameworks for synthetic health data.
       </p>
     </section>
 
-    <section id="research">
-      <h2>Research</h2>
-      <p>
-        My research investigates how machine learning and statistical modelling can be used
-        to generate realistic, useful, and interpretable synthetic population data. I am
-        particularly interested in tabular data generation, dependency-aware modelling,
-        scenario conditioning, evaluation frameworks, and public health applications.
-      </p>
-
-      <h3>Research interests</h3>
-      <ul>
-        <li>Synthetic tabular data generation</li>
-        <li>Deep generative models for population health data</li>
-        <li>Microsimulation and population projection</li>
-        <li>Evaluation frameworks for synthetic data</li>
-        <li>Explainable and statistically grounded machine learning</li>
-      </ul>
-    </section>
-
-    <section id="teaching">
-      <h2>Teaching</h2>
-      <p>
-        I have experience supporting undergraduate and postgraduate teaching in computer
-        science and data science, including programming, databases, artificial intelligence,
-        and applied machine learning.
-      </p>
-
-      <h3>Areas taught or supported</h3>
-      <ul>
-        <li>Python programming</li>
-        <li>Databases and SQL</li>
-        <li>Artificial intelligence</li>
-        <li>Machine learning</li>
-        <li>Bio-inspired optimisation</li>
-      </ul>
-    </section>
-
-    <section id="services">
-      <h2>Services</h2>
-      <p>
-        I provide support with data analysis, machine learning, research software,
-        local AI systems, and technical writing. My work focuses on practical, transparent,
-        and reproducible solutions.
-      </p>
-
-      <h3>Examples</h3>
-      <ul>
-        <li>Data analysis and statistical modelling</li>
-        <li>Machine learning prototypes</li>
-        <li>Local LLM and retrieval-augmented generation systems</li>
-        <li>Research support and technical documentation</li>
-        <li>Python, R, and SQL support</li>
-      </ul>
-    </section>
-
-    <section id="projects">
-      <h2>Personal Projects</h2>
-      <p>
-        I build practical AI and data systems, including local language model tools,
-        retrieval systems, synthetic data pipelines, and research-oriented software.
-      </p>
-
-      <article class="project">
-        <h3>Local LLM Research Assistant</h3>
-        <p>
-          A local AI assistant designed for document ingestion, retrieval, summarisation,
-          and question answering using open-source language models.
-        </p>
-      </article>
-
-      <article class="project">
-        <h3>Synthetic Population Modelling</h3>
-        <p>
-          Experiments with deep generative models and statistical approaches for creating
-          realistic tabular population health data.
-        </p>
-      </article>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>
-        Email: <a href="mailto:your-email@example.com">your-email@example.com</a>
-      </p>
-      <p>
-        GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a>
-      </p>
-      <p>
-        LinkedIn: <a href="#">Add your LinkedIn link</a>
-      </p>
+    <section>
+      <h2>Current focus</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Synthetic data</h3>
+          <p>Generating realistic and useful synthetic tabular data while preserving statistical structure and practical utility.</p>
+        </article>
+        <article class="card">
+          <h3>Public health modelling</h3>
+          <p>Using data science and machine learning to support epidemiological analysis and population-level modelling.</p>
+        </article>
+        <article class="card">
+          <h3>Local AI systems</h3>
+          <p>Building practical AI tools for document search, retrieval-augmented generation, research support, and reproducible workflows.</p>
+        </article>
+      </div>
     </section>
   </main>
 
-  <footer>
+  <footer class="footer">
     <div class="container">
       <p>&copy; 2026 Botond Hamori</p>
     </div>
